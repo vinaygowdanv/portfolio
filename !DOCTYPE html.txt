@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Gowda Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        nav {
+            background: #1b263b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00b4d8;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #0d1b2a;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .contact a {
+            color: #00b4d8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Vinay Gowda N V</h1>
+    <p>Aspiring Software Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            Seeking an entry-level position as a Software Developer where I can apply my technical skills 
+            and grow through continuous learning while contributing to organizational success.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <ul>
+            <li><b>MCA</b> – Currently Pursuing (74% / 79%)</li>
+            <li><b>BCA</b> – CGPA: 8.94 (2022–2024)</li>
+            <li><b>PUC</b> – 76.3%</li>
+            <li><b>SSLC</b> – 84%</li>
+        </ul>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Java, Python, PHP, JavaScript</li>
+            <li>HTML, CSS</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+
+    <h2>Soft Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Leadership</li>
+            <li>Problem Solving</li>
+            <li>Team Management</li>
+            <li>Adaptability</li>
+        </ul>
+    </div>
+</section>
+
+<section id="project">
+    <h2>Project</h2>
+    <div class="card">
+        <h3>COVID-19 Testing Management System</h3>
+        <p>
+            Developed a web-based system to manage COVID-19 testing processes from registration to reporting.
+            Improved data handling and reporting efficiency.
+        </p>
+        <p><b>Technologies:</b> PHP, MySQL, HTML, CSS, JavaScript, Python</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+        <p>📞 +91 9108166603</p>
+        <p>✉️ <a href="mailto:vinayvinay24336@gmail.com">vinayvinay24336@gmail.com</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Vinay Gowda | Portfolio</p>
+</footer>
+
+</body>
+</html>
